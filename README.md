@@ -1,25 +1,57 @@
-# Guess the Number Game
+<div align="center">
 
-This is a simple "Guess the Number" game built with HTML, CSS, and JavaScript.
+# 🎯 Guess the Number
 
-## How to Play
+**A browser game: find the secret number between 1 and 100 in 10 guesses.**
 
-1. Guess a number between 1 and 100.
-2. Enter your guess in the input box and click the "Guess" button.
-3. The game will give you feedback whether your guess is too high, too low, or correct.
-4. If you guess the correct number, the game will display the number of attempts it took you to guess correctly.
-5. Click the "Reset" button to start a new game.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-## Files
+### [🎮 Play it live](https://guess-number-eosin.vercel.app)
 
-- `index.html`: The main HTML file that contains the structure of the game.
-- `styles.css`: The CSS file for styling the game.
-- `indeex.js`: The JavaScript file that contains the game logic.
+</div>
 
-## Setup
+---
 
-To run the game, simply open the `index.html` file in your web browser.
+## 🕹️ How to play
 
-## License
+1. The game picks a random number from **1 to 100**.
+2. Type a guess and press **Submit**.
+3. You'll be told whether the number is **too low** or **too high**.
+4. Your previous guesses and remaining attempts are shown as you play.
+5. Find it within **10 guesses** to win, or the number is revealed. Then start a new game.
 
-This project is licensed under the MIT License.
+## ✨ Features
+
+- Input validation: rejects non-numbers and values outside 1–100
+- Tracks previous guesses and remaining attempts
+- Ends the game on a win or after the last guess, with a **Start new game** button
+
+## 🛠️ Tech stack
+
+HTML5 · CSS3 · Vanilla JavaScript (DOM manipulation) · Hosted on Vercel
+
+## 🚀 Run locally
+
+```bash
+git clone https://github.com/mayurvij22/GuessNumber.git
+cd GuessNumber
+# open index.html in your browser
+```
+
+## 📁 Project structure
+
+```text
+├── index.html   # Game layout
+├── style.css    # Styling
+└── index.js     # Game logic: random number, validation, feedback, reset
+```
+
+---
+
+<div align="center">
+
+Made by **[Mayur Patil](https://github.com/mayurvij22)**
+
+</div>
